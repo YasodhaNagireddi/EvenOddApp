@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.count-bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.count-card {
+  background: linear-gradient(to Bottom, #ff6e7f, #bfe9ff);
+  min-height: 350px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 0;
+  border-radius: 10px;
+}
+h1 {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #0f172a;
+}
+.count-status {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #334155;
+}
+.count-note {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #334155;
+}
+
+button {
+  height: 30px;
+  width: 120px;
+  background-color: #ffffff;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
